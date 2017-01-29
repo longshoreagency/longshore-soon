@@ -165,12 +165,18 @@ a:hover {
 }
 
 .modal-header {
+	display: block;
 	border-bottom: 0 none;
 }
 
 button.close {
 	color: #fff;
 	text-shadow: none;
+	opacity: 1;
+}
+
+button.close:hover {
+	color: #fff;
 	opacity: 1;
 }
 
