@@ -16,11 +16,13 @@
 	<link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>
-	<section class="content center">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="logo-area">
-					<img class="logo" src="/assets/images/web-white.png" alt="Longshore Logo">
+	<section class="content">
+		<div class="center">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="logo-area">
+						<img class="logo" src="/assets/images/web-white.png" alt="Longshore Logo">
+					</div>
 				</div>
 			</div>
 		</div>

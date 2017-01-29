@@ -45,3 +45,9 @@ a:hover {
 .logo {
 	max-width: 150px;
 }
+
+.center {
+	max-width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
+}
