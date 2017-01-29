@@ -170,6 +170,7 @@ button.close {
 
 .modal-footer {
 	border-top: 0 none;
+	display: block;
 }
 
 @media (max-width: 768px) {
