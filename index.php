@@ -27,6 +27,20 @@
 			</div>
 		</div>
 	</section>
+	<section class="social">
+		<div class="center">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="social-icons">
+						<a href="https://facebook.com/wearelongshore"><i class="fa fa-facebook"></i></a>
+						<a href="https://twitter.com/wearelongshore"><i class="fa fa-twitter"></i></a>
+						<a href="https://instagram.com/wearelongshore"><i class="fa fa-instagram"></i></a>
+						<a href="mailto:info@longshore.agency"><i class="fa fa-email"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>

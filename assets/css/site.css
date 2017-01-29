@@ -60,8 +60,50 @@ a:hover {
 	margin-left: auto;
 }
 
+.social-icons {
+	position: absolute;
+	left: 0;
+	bottom: 2%;
+	padding: 0 5%;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	z-index: 9;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.social-icons a {
+	color: #fff;
+	width: 40px;
+	line-height: 40px;
+	letter-spacing: 0;
+	background: transparent;
+	font-size: 1em;
+	font-weight: 300;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 2px;
+	border: none;
+	-webkit-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+	-moz-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+	-ms-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+	-o-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+	transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+}
+
+.social-icons i {
+	color: #fff;
+	-webkit-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+	-moz-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+	-ms-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+	-o-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+	transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+}
+
 @media (max-width: 768px) {
 	.logo {
-    	max-width: 250px;
+		max-width: 250px;
 	}
 }
