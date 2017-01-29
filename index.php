@@ -28,8 +28,8 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="cta-area">
-						<a href="#" role="button" class="btn btn-outline-primary learn-more">Learn More</a>
-						<a href="#" role="button" class="btn btn-secondary subscribe">Get Updates</a>
+						<button type="button" class="btn btn-outline-primary learn-more" data-toggle="modal" data-target="#about">Learn More</button>
+						<button type="button" class="btn btn-secondary subscribe">Get Updates</button>
 					</div>
 				</div>
 			</div>
@@ -45,6 +45,29 @@
 						<a href="https://instagram.com/wearelongshore" target="_blank"><i class="fa fa-instagram"></i></a>
 						<a href="m&#97;ilto&#58;in&#37;66o&#64;l%&#54;F&#110;gs%68o&#114;e%2&#69;agenc&#121;"><i class="fa fa-envelope"></i></a>
 					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- About Modal -->
+	<section class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="aboutmodal" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<h2>What is Longshore?</h2>
+					<p>We are your team for developing successful websites, e-commerce stores, and winning digital strategies.</p>
+					<p>Specifically, we specialize in Shopify and WooCommerce development, WordPress development, search engine optimization (SEO), search engine marketing (SEM), web analytics, marketing automation, pay-per-click (PPC) campaigns, social media marketing (SMM) and developing content marketing strategies.</p>
+					<p>Our company is 100% remote. That means we don&rsquo;t have to pay crazy high rental prices for an office. It means that we get to employee talented experts from all over, as opposed to just who is available in a small, geographic area. That means you get the most talented team we can provide, for the most competitive rate we can provide.</p>
+					<p>We want your ecommerce or lead generating site to be a success. Let us build a digital marketing plan or marketing automation strategy that works for you.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Close</button>
 				</div>
 			</div>
 		</div>
