@@ -61,9 +61,6 @@ a:hover {
 }
 
 .social-icons {
-	position: absolute;
-	left: 0;
-	bottom: 2%;
 	padding: 0 5%;
 	display: inline-block;
 	text-align: center;
@@ -71,6 +68,7 @@ a:hover {
 	z-index: 9;
 	overflow: hidden;
 	white-space: nowrap;
+	margin-top: 2em;
 }
 
 .social-icons a {
@@ -91,6 +89,10 @@ a:hover {
 	-ms-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
 	-o-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
 	transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+}
+
+.social-icons a:hover {
+	color: #87CCDA;
 }
 
 .social-icons i {
