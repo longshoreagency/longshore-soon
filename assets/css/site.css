@@ -8,6 +8,10 @@ html {
 	color: #fff;
 }
 
+body {
+	background-color: transparent;
+}
+
 /* Light blue would be #87CCDA */
 ::selection {
 	background: #447492;
