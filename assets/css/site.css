@@ -12,6 +12,23 @@ body {
 	background-color: transparent;
 }
 
+/* Light blue would be #87CCDA */
+::selection {
+	background: #447492;
+}
+
+::-moz-selection {
+	background: #447492;
+}
+
+a::selection {
+	color: #FFF;
+}
+
+a::-moz-selection {
+	color: #FFF;
+}
+
 a {
 	color: #447492;
 	text-decoration: none;
@@ -54,6 +71,12 @@ a:hover {
 
 .btn {
 	border-radius: 0;
+}
+
+.btn:focus, btn.focus {
+	outline: 0;
+	-webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 .btn-outline-primary {
