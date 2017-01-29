@@ -93,6 +93,7 @@ a:hover {
 
 .social-icons a:hover {
 	color: #87CCDA;
+	background: transparent;
 }
 
 .social-icons i {

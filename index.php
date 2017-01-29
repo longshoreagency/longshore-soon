@@ -35,7 +35,7 @@
 						<a href="https://facebook.com/wearelongshore"><i class="fa fa-facebook"></i></a>
 						<a href="https://twitter.com/wearelongshore"><i class="fa fa-twitter"></i></a>
 						<a href="https://instagram.com/wearelongshore"><i class="fa fa-instagram"></i></a>
-						<a href="mailto:info@longshore.agency"><i class="fa fa-email"></i></a>
+						<a href="mailto:info@longshore.agency"><i class="fa fa-envelope"></i></a>
 					</div>
 				</div>
 			</div>
