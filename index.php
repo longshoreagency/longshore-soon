@@ -67,7 +67,7 @@
 					<p>We want your ecommerce or lead generating site to be a success. Let us build a digital marketing plan or marketing automation strategy that works for you.</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-primary">Close</button>
+					<button type="button" class="btn btn-outline-primary" data-dismiss="modal" aria-label="Close">Close</button>
 				</div>
 			</div>
 		</div>

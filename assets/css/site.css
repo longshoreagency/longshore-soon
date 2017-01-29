@@ -152,6 +152,21 @@ a:hover {
 	transform: scale(1.2);
 }
 
+.modal-content {
+	text-align: center;
+    color: #fff;
+    background: #20232D;
+}
+
+.modal-header {
+	color: #fff;
+	border-bottom: 0 none;
+}
+
+.modal-footer {
+	
+}
+
 @media (max-width: 768px) {
 	.logo {
 		max-width: 250px;
