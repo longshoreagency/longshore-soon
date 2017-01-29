@@ -1,0 +1,43 @@
+html {
+	background: url('/assets/images/pipersbg2.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #20232D;
+	color: #fff;
+}
+
+/* Light blue would be #87CCDA */
+::selection {
+	background: #447492;
+}
+
+::-moz-selection {
+	background: #447492;
+}
+
+a::selection {
+	color: #FFF;
+}
+
+a::-moz-selection {
+	color: #FFF;
+}
+
+a {
+	color: #447492;
+	text-decoration: none;
+	transition: all .1s linear 0s;
+	-moz-transition: all .1s linear 0s;
+	-webkit-transition: all .1s linear 0s;
+	-o-transition: all .1s linear 0s; 
+}
+
+a:hover {
+	color: #87CCDA;
+}
+
+.logo {
+	max-width: 150px;
+}
