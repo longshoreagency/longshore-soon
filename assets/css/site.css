@@ -60,6 +60,40 @@ a:hover {
 	margin-left: auto;
 }
 
+.cta-area {
+	text-align: center;
+	margin-top: 2em;
+}
+
+.btn {
+	border-radius: 0 none;
+}
+
+.btn-outline-primary {
+	color: #fff;
+    background-image: none;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #447492;
+}
+
+.btn-secondary {
+	color: #FFF;
+    background-color: #87CCDA;
+    border-color: #87CCDA;
+}
+
+.btn-secondary:hover {
+	color: #FFF;
+    background-color: #447492;
+    border-color: #447492;
+}
+
 .social-icons {
 	padding: 0 5%;
 	display: inline-block;
