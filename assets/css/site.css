@@ -159,12 +159,17 @@ a:hover {
 }
 
 .modal-header {
-	color: #fff;
 	border-bottom: 0 none;
 }
 
+button.close {
+	color: #fff;
+	text-shadow: none;
+	opacity: 1;
+}
+
 .modal-footer {
-	
+	border-top: 0 none;
 }
 
 @media (max-width: 768px) {
