@@ -25,6 +25,14 @@
 					</div>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="cta-area">
+						<a href="#" type="button" class="btn btn-outline-primary learn-more">Learn More</a>
+						<a href="#" type="button" class="btn btn-secondary subscribe">Get Updates</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<section class="social">
