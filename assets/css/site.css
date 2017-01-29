@@ -65,6 +65,10 @@ a:hover {
 	margin-top: 2em;
 }
 
+.cta-area .btn-outline-primary {
+	margin-right: 1em;
+}
+
 .btn {
 	border-radius: 0;
 }
