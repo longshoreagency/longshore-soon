@@ -42,8 +42,12 @@ a:hover {
 	color: #87CCDA;
 }
 
+.content {
+	margin-top: 4em;
+}
+
 .logo {
-	max-width: 150px;
+	max-width: 500px;
 }
 
 .logo-area {
