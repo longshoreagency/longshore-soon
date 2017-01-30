@@ -15,6 +15,7 @@
 	<link rel="canonical" href="https://longshore.agency">
 	<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/css/ladda.min.css">
 	<link rel="stylesheet" href="/assets/css/site.css">
 
 	<!-- Google Analytics -->
@@ -160,8 +161,35 @@
 			</div>
 		</div>
 	</section>
+	<!-- Form Modal -->
+	<section class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="aboutmodal" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div id="subscribe-form">
+						<form class="form-inline">
+							<h3>Sign-up for news and free tips on making your sites better!</h3>
+  							<label class="sr-only" for="inlineFormInput">Email</label>
+  							<input type="email" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="you@youremail.com">
+							<button id="subscribe-btn" class="ladda-button" data-style="expand-right"><span class="ladda-label">Submit</span></button>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-outline-primary" data-dismiss="modal" aria-label="Close">Close</button>
+				</div>
+			</div>
+		</div>
+	</section>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+	<script src="/assets/js/spin.min.js"></script>
+	<script src="/assets/js/ladda.min.js"></script>
+	<script src="/assets/js/site.js"></script>
 </body>
 </html>
