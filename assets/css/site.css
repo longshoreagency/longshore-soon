@@ -212,4 +212,7 @@ button.close:hover {
 	.logo {
 		max-width: 250px;
 	}
+	.subscribe-btn {
+		width: 100%;
+	}
 }

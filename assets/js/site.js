@@ -60,7 +60,7 @@ $(function() {
 					$('.sr-only').remove();
 					$('#mc-email').remove();
 					$('#subscribe-btn').remove();
-					$('#mc-sub-form h3').text('Thanks! We&rsquo;ll be in touch.');
+					$('#mc-sub-form h3').text("Thanks! We'll be in touch.");
 					$('#mc-sub-form h3').after('<p>In the meantime, please feel free to email us at info@longshore.agency for more information or to get a free quote.</p>');
 					//successful adds will have an id attribute on the object
 					ga('set', 'dimension2', (new Date()).getTime().toString());
