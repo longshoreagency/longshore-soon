@@ -118,7 +118,7 @@
 				<div class="col-md-12">
 					<div class="cta-area">
 						<button type="button" class="btn btn-outline-primary learn-more" data-toggle="modal" data-target="#about">Learn More</button>
-						<button type="button" class="btn btn-secondary subscribe">Get Updates</button>
+						<button type="button" class="btn btn-secondary subscribe" data-toggle="modal" data-target="#subscribe">Get Updates</button>
 					</div>
 				</div>
 			</div>
@@ -162,7 +162,7 @@
 		</div>
 	</section>
 	<!-- Form Modal -->
-	<section class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="aboutmodal" aria-hidden="true">
+	<section class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="aboutmodal" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
