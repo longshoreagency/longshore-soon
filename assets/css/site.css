@@ -190,6 +190,7 @@ button.close:hover {
 }
 
 .ladda-button {
+	border-radius: 0;
 	background-color: #87CCDA;
 }
 
