@@ -6,7 +6,7 @@ $(function() {
 	$('a').click(function(){
 		var url = $(this).attr('href');
 		var txt = $(this).text();
-		if (LSUTils.isExternal(url) && url !== "#") {
+		if (LSUtils.isExternal(url) && url !== "#") {
 			ga('send', 'event', {
 				eventCategory: 'Outbound Link',
 				eventAction:  'click',
@@ -60,11 +60,11 @@ $(function() {
 					$('.sr-only').remove();
 					$('#mc-email').remove();
 					$('#subscribe-btn').remove();
-					$('#mc-sub-form h3').text('Thanks! We&rsquoll be in touch.');
+					$('#mc-sub-form h3').text('Thanks! We&rsquo;ll be in touch.');
 					$('#mc-sub-form h3').after('<p>In the meantime, please feel free to email us at info@longshore.agency for more information or to get a free quote.</p>');
 					//successful adds will have an id attribute on the object
 					ga('set', 'dimension2', (new Date()).getTime().toString());
-					ga('send', 'pageview', '/submitted-raq');
+					ga('send', 'pageview', '/submitted-newsletter-signup');
 				} else if (data.title == 'Member Exists') {
 					//MC wil send back an error object with "Member Exists" as the title
 					$('#mc-sub-form h3').after('<p class="error">Sorry, someone with that email has already signed up.</p>');
