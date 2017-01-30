@@ -176,7 +176,7 @@
 							<h3>Sign-up for news and free tips on making your sites better!</h3>
   							<label class="sr-only" for="inlineFormInput">Email</label>
   							<input type="email" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="you@youremail.com">
-							<button id="subscribe-btn" class="ladda-button small" data-style="expand-right"><span class="ladda-label">Submit</span></button>
+							<button id="subscribe-btn" class="ladda-button" data-size="s" data-style="expand-right"><span class="ladda-label">Submit</span></button>
 						</form>
 					</div>
 				</div>
