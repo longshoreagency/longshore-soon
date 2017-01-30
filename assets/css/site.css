@@ -223,8 +223,14 @@ button.close:hover {
 	}
 }
 
-@media (min-height: 800px) {
+@media (min-height: 950px) {
 	.content {
 		margin-top: 15em;
+	}
+}
+
+@media (min-height: 750px) {
+	.content {
+		margin-top: 8em;
 	}
 }
