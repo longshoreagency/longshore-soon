@@ -54,8 +54,8 @@ var LSUtils = {
 			expires = ""; 
 		} 
 		domain = ""; 
-		if (window.location.hostname.indexOf('kevi-deleon.com') !== -1) { 
-			domain = ";domain=.kevin-deleon.com"; 
+		if (window.location.hostname.indexOf('longshore.agency') !== -1) { 
+			domain = ";domain=.longshore.agency"; 
 		} 
 		document.cookie = name + "=" + value + expires + "; path=/" + domain; 
 	},
