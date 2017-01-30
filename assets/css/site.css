@@ -167,6 +167,7 @@ button, p, a, {
 	text-align: center;
     color: #fff;
     background: #20232D;
+    border-radius: 0;
 }
 
 .modal-header {
