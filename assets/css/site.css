@@ -199,9 +199,14 @@ button.close:hover {
 	display: block;
 }
 
+.input {
+	border-radius: 0;
+}
+
 .ladda-button {
 	border-radius: 0;
 	background-color: #87CCDA;
+	line-height: 20px;
 }
 
 .error {
