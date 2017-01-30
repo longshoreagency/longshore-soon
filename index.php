@@ -172,10 +172,12 @@
 				</div>
 				<div class="modal-body">
 					<div id="subscribe-form">
-						<h3>Sign up for news, tutorials, &amp; free tips!</h3>
-						<label class="sr-only" for="inlineFormInput">Email</label>
-						<input type="email" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="you@youremail.com">
-						<button id="subscribe-btn" class="ladda-button" data-size="s" data-style="expand-right"><span class="ladda-label">Submit</span></button>
+						<div id="mc-sub-form" class="form-inline">
+							<h3>Sign up for news, tutorials, &amp; free tips!</h3>
+  							<label class="sr-only" for="inlineFormInput">Email</label>
+  							<input type="email" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="you@youremail.com">
+							<button id="subscribe-btn" class="ladda-button" data-size="s" data-style="expand-right"><span class="ladda-label">Submit</span></button>
+						</div>
 					</div>
 				</div>
 				<div class="modal-footer">
