@@ -199,7 +199,7 @@ button.close:hover {
 	display: block;
 }
 
-.input {
+#mc-email {
 	border-radius: 0;
 }
 
