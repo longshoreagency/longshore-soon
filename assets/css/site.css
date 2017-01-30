@@ -212,7 +212,10 @@ button.close:hover {
 	.logo {
 		max-width: 250px;
 	}
-	.subscribe-btn {
+	.#subscribe-btn {
 		width: 100%;
+	}
+	#mc-sub-form h3 {
+		font-size: 1.5em;
 	}
 }
