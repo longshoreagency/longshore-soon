@@ -51,32 +51,33 @@ $(function() {
 			method: 'POST',
 			dataType: "json",
 			url: endpoint,
-			data: data
-		}).success(function(data) {
-			subscribeBtnLadda.stop();
-			var $form = $('#mc-sub-form');
+			data: data,
+			success: function(data) {
+				subscribeBtnLadda.stop();
+				var $form = $('#mc-sub-form');
 
-			if (data.id){
-				$('.sr-only').remove();
-				$('#mc-email').remove();
-				$('#subscribe-btn').remove();
-				$('#mc-sub-form h3').text('Thanks! We&rsquoll be in touch.');
-				$('#mc-sub-form h3').after('<p>In the meantime, please feel free to email us at info@longshore.agency for more information or to get a free quote.</p>');
-				//successful adds will have an id attribute on the object
-				ga('set', 'dimension2', (new Date()).getTime().toString());
-				ga('send', 'pageview', '/submitted-raq');
-			} else if (data.title == 'Member Exists') {
-				//MC wil send back an error object with "Member Exists" as the title
-				$('#mc-sub-form h3').after('<p class="error">Sorry, someone with that email has already signed up.</p>');
-			} else {
-				//something went wrong with the API call
+				if (data.id){
+					$('.sr-only').remove();
+					$('#mc-email').remove();
+					$('#subscribe-btn').remove();
+					$('#mc-sub-form h3').text('Thanks! We&rsquoll be in touch.');
+					$('#mc-sub-form h3').after('<p>In the meantime, please feel free to email us at info@longshore.agency for more information or to get a free quote.</p>');
+					//successful adds will have an id attribute on the object
+					ga('set', 'dimension2', (new Date()).getTime().toString());
+					ga('send', 'pageview', '/submitted-raq');
+				} else if (data.title == 'Member Exists') {
+					//MC wil send back an error object with "Member Exists" as the title
+					$('#mc-sub-form h3').after('<p class="error">Sorry, someone with that email has already signed up.</p>');
+				} else {
+					//something went wrong with the API call
+					$('#mc-sub-form h3').after('<p class="error">Well, this is embarassing. Looks like something is broken. Please try again later.</p>');
+				}
+			},
+			error: function(data) {
+				subscribeBtnLadda.stop();
+				//something went wrong with the API call but wasn't a 200
 				$('#mc-sub-form h3').after('<p class="error">Well, this is embarassing. Looks like something is broken. Please try again later.</p>');
 			}
-		}).error(function() {
-			subscribeBtnLadda.stop();
-
-			//something went wrong with the API call but wasn't a 200
-			$('#mc-sub-form h3').after('<p class="error">Well, this is embarassing. Looks like something is broken. Please try again later.</p>');
 		});
 	});
 });
