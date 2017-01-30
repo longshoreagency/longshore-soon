@@ -43,6 +43,10 @@ a:hover {
 	color: #87CCDA;
 }
 
+button, p, a, {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .content {
 	margin-top: 4em;
 }
