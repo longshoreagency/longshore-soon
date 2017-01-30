@@ -194,6 +194,10 @@ button.close:hover {
 	background-color: #87CCDA;
 }
 
+.error {
+	color: #F92672;
+}
+
 @media (max-width: 768px) {
 	.logo {
 		max-width: 250px;

@@ -17,17 +17,30 @@ $(function() {
 	});
 
 	$('#subscribe').on('shown.bs.modal', function(e) {
-  		ga('send', 'pageview', '/subscribe-modal-shown');
+		ga('send', 'pageview', '/subscribe-modal-shown');
 	});
 
 	$('#about').on('shown.bs.modal', function(e) {
-  		ga('send', 'pageview', '/about-modal-shown');
+		ga('send', 'pageview', '/about-modal-shown');
 	});
+
+	function validateEmail(email) {
+		var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		return re.test(email);
+	}
 
 	// Submit form
 	$('#mc-sub-form').on('click', '#subscribe-btn', function(e){
 		$('.error').remove();
 		subscribeBtnLadda.start();
+
+		var email = $('#mc-email').val();
+
+		if (!validateEmail(email)) {
+			subscribeBtnLadda.stop();
+			$('#mc-sub-form h3').after('<p class="error">Sorry, that email isn&rsquo;t valid.</p>');
+			return;
+		}
 
 		//grab attributes and values out of the form
 		var data = {email: $('#mc-email').val()};
