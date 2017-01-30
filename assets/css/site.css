@@ -185,6 +185,15 @@ button.close:hover {
 	display: block;
 }
 
+.form-inline {
+	display: block;
+}
+
+.ladda-button {
+	padding: .5rem 1rem;
+	background-color: #87CCDA;
+}
+
 @media (max-width: 768px) {
 	.logo {
 		max-width: 250px;
