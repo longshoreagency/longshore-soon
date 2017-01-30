@@ -14,11 +14,11 @@ body {
 
 /* Light blue would be #87CCDA */
 ::selection {
-	background: #447492;
+	background: #87CCDA;
 }
 
 ::-moz-selection {
-	background: #447492;
+	background: #87CCDA;
 }
 
 a::selection {
