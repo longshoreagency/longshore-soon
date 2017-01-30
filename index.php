@@ -149,7 +149,7 @@
 					</button>
 				</div>
 				<div class="modal-body">
-					<h2>What is Longshore?</h2>
+					<h3>What is Longshore?</h3>
 					<p>We are your team for developing successful websites, e-commerce stores, and winning digital strategies.</p>
 					<p>Specifically, we specialize in Shopify and WooCommerce development, WordPress development, search engine optimization (SEO), search engine marketing (SEM), web analytics, marketing automation, pay-per-click (PPC) campaigns, social media marketing (SMM) and developing content marketing strategies.</p>
 					<p>Our company is 100% remote. That means we don&rsquo;t have to pay crazy high rental prices for an office. It means that we get to employee talented experts from all over, as opposed to just who is available in a small, geographic area. That means you get the most talented team we can provide, for the most competitive rate we can provide.</p>
