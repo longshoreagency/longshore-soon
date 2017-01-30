@@ -177,6 +177,7 @@
   							<label class="sr-only" for="inlineFormInput">Email</label>
   							<input type="email" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="you@youremail.com">
 							<button id="subscribe-btn" class="ladda-button" data-style="expand-right"><span class="ladda-label">Submit</span></button>
+						</form>
 					</div>
 				</div>
 				<div class="modal-footer">
