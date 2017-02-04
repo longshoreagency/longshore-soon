@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="google-site-verification" content="6YLDJwRNPJKHqPS_B9xvP6aIYFMagn7NNBoDbh-YV-A" />
-	<title>Longshore | Shopify Development &amp; Digital Marketing Agency</title>
-	<meta name="description" content="Longshore is a digital marketing agency specializing in ecommerce, Shopify and WooCommerce development. We use data and experience to drive your success.">
+	<title>Longshore: Shopify Experts &amp; Digital Marketing Agency</title>
+	<meta name="description" content="Longshore is a digital agency specializing in creating successful Shopify sites. We use data and experience to drive your success.">
 	<link rel="shortcut icon" href="/favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta property="og:title" content="Longshore | Shopify Development &amp; Digital Marketing Agency">
@@ -110,7 +110,14 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="logo-area">
-						<img class="logo" src="/assets/images/web-white.png" alt="Longshore Logo">
+						<h1>Longshore: Your Shopify Experts</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="value-area">
+						<h2>Your team for building a successful Shopify store.</h2>
 					</div>
 				</div>
 			</div>
@@ -150,12 +157,13 @@
 				</div>
 				<div class="modal-body">
 					<h3>What is Longshore?</h3>
-					<p>We are your team for developing successful websites, e-commerce stores, and winning digital strategies.</p>
-					<p>Specifically, we specialize in Shopify and WooCommerce development, WordPress development, search engine optimization (SEO), search engine marketing (SEM), web analytics, marketing automation, pay-per-click (PPC) campaigns, social media marketing (SMM) and developing content marketing strategies.</p>
+					<p>We are your team for developing successful Shopify sites and winning digital strategies.</p>
+					<p>We specialize in Shopify development, Shopify SEO (search engine optimization), search engine marketing (SEM) and developing content marketing strategies.</p>
 					<p>Our company is 100% remote. That means we don&rsquo;t have to pay crazy high rental prices for an office. It means that we get to employee talented experts from all over, as opposed to just who is available in a small, geographic area. That means you get the most talented team we can provide, for the most competitive rate we can provide.</p>
-					<p>We want your ecommerce or lead generating site to be a success. Let us build a digital marketing plan or marketing automation strategy that works for you.</p>
+					<p>We want your Shopify site to be successful. Whether you are new to Shopify and need help with setup, already have an e-commerce store that you would like to migrate to Shopify, or you&rsquo;re already on Shopify and would like your store to perform better, we can help!</p>
 				</div>
 				<div class="modal-footer">
+					<a href="m&#97;ilto&#58;in&#37;66o&#64;l%&#54;F&#110;gs%68o&#114;e%2&#69;agenc&#121;" role="button" class="btn btn-secondary">Email Us</button>
 					<button type="button" class="btn btn-outline-primary" data-dismiss="modal" aria-label="Close">Close</button>
 				</div>
 			</div>
