@@ -163,7 +163,7 @@
 					<p>We want your Shopify site to be successful. Whether you are new to Shopify and need help with setup, already have an e-commerce store that you would like to migrate to Shopify, or you&rsquo;re already on Shopify and would like your store to perform better, we can help!</p>
 				</div>
 				<div class="modal-footer">
-					<a href="m&#97;ilto&#58;in&#37;66o&#64;l%&#54;F&#110;gs%68o&#114;e%2&#69;agenc&#121;" role="button" class="btn btn-secondary">Email Us</button>
+					<a href="m&#97;ilto&#58;in&#37;66o&#64;l%&#54;F&#110;gs%68o&#114;e%2&#69;agenc&#121;" role="button" class="btn btn-secondary">Email Us</a>
 					<button type="button" class="btn btn-outline-primary" data-dismiss="modal" aria-label="Close">Close</button>
 				</div>
 			</div>
