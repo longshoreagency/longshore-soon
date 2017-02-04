@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="google-site-verification" content="6YLDJwRNPJKHqPS_B9xvP6aIYFMagn7NNBoDbh-YV-A" />
-	<title>Longshore: Shopify Experts &amp; Digital Marketing Agency</title>
-	<meta name="description" content="Longshore is a digital agency specializing in creating successful Shopify sites. We use data and experience to drive your success.">
+	<title>Longshore | Shopify Developers &amp; Shopify SEO | Pensacola, FL</title>
+	<meta name="description" content="Your team for developing successful Shopify sites and winning digital strategies. We use data and experience to drive your success.">
 	<link rel="shortcut icon" href="/favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta property="og:title" content="Longshore | Shopify Development &amp; Digital Marketing Agency">
