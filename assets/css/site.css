@@ -115,6 +115,11 @@ button, p, a, {
     border-color: #447492;
 }
 
+.value-area h2 {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
 .social-icons {
 	padding: 0 5%;
 	display: inline-block;
@@ -223,6 +228,11 @@ button.close:hover {
 	.logo-area h1 {
 		width: 250px;
 		height: 144px;
+	}
+	.value-area h2 {
+		margin-right: 10px;
+		margin-left: 10px;
+		font-size: 25px;
 	}
 }
 
