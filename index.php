@@ -136,10 +136,10 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="social-icons">
-						<a href="https://facebook.com/wearelongshore" target="_blank"><i class="fa fa-facebook"></i></a>
-						<a href="https://twitter.com/wearelongshore" target="_blank"><i class="fa fa-twitter"></i></a>
-						<a href="https://instagram.com/wearelongshore" target="_blank"><i class="fa fa-instagram"></i></a>
-						<a href="m&#97;ilto&#58;in&#37;66o&#64;l%&#54;F&#110;gs%68o&#114;e%2&#69;agenc&#121;"><i class="fa fa-envelope"></i></a>
+						<a href="https://facebook.com/wearelongshore" title="Like us on Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="https://twitter.com/wearelongshore" title="Follow us on Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+						<a href="https://instagram.com/wearelongshore" title="Follow us on Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+						<a title="Email us" href="m&#97;ilto&#58;in&#37;66o&#64;l%&#54;F&#110;gs%68o&#114;e%2&#69;agenc&#121;"><i class="fa fa-envelope"></i></a>
 					</div>
 				</div>
 			</div>
