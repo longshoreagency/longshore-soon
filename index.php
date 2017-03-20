@@ -159,7 +159,7 @@
 					<h3>What is Longshore?</h3>
 					<p>We are your team for developing successful Shopify sites and winning digital strategies.</p>
 					<p>We specialize in Shopify development, Shopify SEO (search engine optimization), web analytics and developing successful digital marketing strategies.</p>
-					<p>Our company is 100% remote. That means we don&rsquo;t have to pay crazy high rental prices for an office. It means that we get to employee talented experts from all over, as opposed to who is available in a small, geographic area. That means you get the most talented team we can provide, for the most competitive rate we can provide.</p>
+					<p>Our company is 100% remote. That means we don&rsquo;t have to pay crazy high rental prices for an office. It means that we get to hire talented experts from all over, as opposed to who is available in a small, geographic area. That means you get the most talented team we can provide, for the most competitive rate we can provide.</p>
 					<p>We want your Shopify site to be successful. Whether you are new to Shopify and need help with setup, already have an e-commerce store that you would like to migrate to Shopify, or you&rsquo;re already on Shopify and would like your store to perform better, we can help!</p>
 				</div>
 				<div class="modal-footer">
